@@ -1,0 +1,55 @@
+{
+  "nlu_data": {
+    "common_examples": [
+      {
+        "text": "buna ziua",
+        "intent": "salut",
+        "entities": []
+      },
+      {
+        "text": "salut",
+        "intent": "salut",
+        "entities": []
+      },
+      {
+        "text": "salutare",
+        "intent": "salut",
+        "entities": []
+      },
+      {
+        "text": "buna",
+        "intent": "salut",
+        "entities": []
+      },
+      {
+        "text": "buna seara",
+        "intent": "salut",
+        "entities": []
+      },
+      {
+        "text": "as vrea sa intru in posesia facturii, codul meu client este 1534489",
+        "intent": "solicitare_factura",
+        "entities": [
+          {
+            "start": 60,
+            "end": 67,
+            "value": "1534489",
+            "entity": "cod_client"
+          }
+        ]
+      },
+      {
+        "text": "factura nu a ajuns la mine, menționez că numele meu este Ion Tănase",
+        "intent": "solicitare_factura",
+        "entities": [
+          {
+            "start": 57,
+            "end": 67,
+            "value": "Ion Tănase",
+            "entity": "nume"
+          }
+        ]
+      }
+    ]
+  }
+}
