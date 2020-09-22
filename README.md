@@ -1,6 +1,8 @@
 # nlu-trainer
 This is a tool to edit your training examples
 
+# gh-pages
+`$ npm run publish-demo`
 
 ## installation
 
