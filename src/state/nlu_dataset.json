@@ -22,31 +22,32 @@
         "entities": []
       },
       {
-        "text": "buna seara",
-        "intent": "salut",
-        "entities": []
-      },
-      {
-        "text": "as vrea sa intru in posesia facturii, codul meu client este 1534489",
-        "intent": "solicitare_factura",
+        "text": "Cum e vremea astazi?",
+        "intent": "cerere_vreme",
         "entities": [
           {
-            "start": 60,
-            "end": 67,
-            "value": "1534489",
-            "entity": "cod_client"
+            "start": 13,
+            "end": 19,
+            "value": "astazi",
+            "entity": "timp"
           }
         ]
       },
       {
-        "text": "factura nu a ajuns la mine, menționez că numele meu este Ion Tănase",
-        "intent": "solicitare_factura",
+        "text": "Va fi cald maine in Bucuresti?",
+        "intent": "cerere_vreme",
         "entities": [
           {
-            "start": 57,
-            "end": 67,
-            "value": "Ion Tănase",
-            "entity": "nume"
+            "start": 11,
+            "end": 16,
+            "value": "maine",
+            "entity": "timp"
+          },
+          {
+            "start": 20,
+            "end": 29,
+            "value": "Bucuresti",
+            "entity": "oras"
           }
         ]
       }

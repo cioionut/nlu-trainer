@@ -83,7 +83,7 @@
   "bin": {
     "nlu-trainer": "./server.js"
   },
-  "homepage": "https://cioionut.github.io/nlu-trainer/",
+  "homepage": "https://trainer.ionkom.com",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"
